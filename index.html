@@ -1,0 +1,50 @@
+: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <body data-theme="light">
+
+  <div id="loader" class="loader">Loading...</div>
+
+  
+  <header>
+    <h1>Weather App</h1>
+    <input type="text" id="city-search" placeholder="Enter City or Town..." />
+    <button id="search-btn" class="menu-btn">Search</button>
+    <button id="toggle-mode" class="menu-btn">Dark Mode</button>
+  </header>
+
+  
+  <main>
+    
+    <section id="weather-info">
+      <h2 id="city-name">City Name</h2>
+      <div class="details">
+        <p id="temperature"></p>
+        <div class="icon-info">
+          <img id="weather-icon" src="" alt="Weather Icon">
+          <p id="weather-description"></p>
+        </div>
+        <div class="extra-info">
+          <p><span class="icon" id="humidity-icon">💧</span> <span id="humidity"></span></p>
+          <p><span class="icon" id="wind-speed-icon">💨</span> <span id="wind-speed"></span></p>
+        </div>
+      </div>
+      <button id="more-details-btn" class="menu-btn"><a href="detials.html">More Details</a></button>
+    </section>
+  </main>
+
+  <footer>
+    <p>kampamba Green_2401375083</p>
+    <a href="https://www.zrdc.org" target="_blank">ZRDC</a>
+    <a href="https://www.icu.edu.zm" target="_blank">ICU University</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
